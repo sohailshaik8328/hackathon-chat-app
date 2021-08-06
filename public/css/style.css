@@ -142,16 +142,27 @@ input:focus {
 }
 
 .join-header {
+	display: flex;
+	align-items: center;
 	text-align: center;
 	padding: 20px;
-	background: var(--dark-color-a);
+	padding-left: 2rem;
+	background: rgb(8, 63, 85);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+}
+.brand-logo{
+	width: 4rem;
+	margin-right: 6rem;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 .join-main {
 	padding: 30px 40px;
-	background: var(--dark-color-b);
+	background: #fff;
+	border-bottom-left-radius: 5px ;
+	border-bottom-right-radius: 5px ;
 }
 
 .join-main p {
@@ -172,6 +183,21 @@ input:focus {
 	padding: 5px;
 	height: 40px;
 	width: 100%;
+	border: 1px solid #d5daf7;
+	color: gray;
+	padding-left: 0.75rem;
+}
+.form-control label{
+	color: rgb(8, 63, 85);
+	padding-bottom: 0.25rem;
+	font-size: 1.1rem;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+#room{
+	padding: 0rem 0.50rem;
+	color: gray;
+	border: 1px solid #d5daf7;
 }
 
 .join-main select {
@@ -183,7 +209,13 @@ input:focus {
 
 .join-main .btn {
 	margin-top: 20px;
+	padding: 1rem;
+	border-radius: 40px;
 	width: 100%;
+	color: #fff;
+	background-color: rgb(8, 63, 85);
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 @media (max-width: 700px) {
