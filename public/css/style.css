@@ -191,9 +191,11 @@ input::placeholder{
 .join-header {
 	display: flex;
 	align-items: center;
-	text-align: center;
+	/* text-align: center; */
+	justify-content: space-between;
 	padding: 20px;
 	padding-left: 2rem;
+	padding-right: 2.5rem;
 	background: rgb(8, 63, 85);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -244,7 +246,11 @@ input::placeholder{
 #room{
 	padding: 0rem 0.50rem;
 	color: gray;
-	border: 1px solid #d5daf7;
+	/* border: 1px solid #d5daf7; */
+}
+
+#room:focus {
+	border: 1px solid #5cb85c;
 }
 
 .join-main select {
