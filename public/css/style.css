@@ -130,8 +130,9 @@ input::placeholder{
 .chat-messages {
 	background-color: white;
 	padding: 30px;
-	max-height: 500px;
-	overflow-y: scroll;
+	/* max-height: 400px; */
+	overflow-y:scroll;
+	height: 400px;
 }
 
 ::-webkit-scrollbar{
@@ -269,6 +270,9 @@ input::placeholder{
 	background-color: rgb(8, 63, 85);
 	font-weight: 700;
 	text-transform: uppercase;
+}
+.time {
+	margin-left: 0.5rem;
 }
 
 @media (max-width: 700px) {
